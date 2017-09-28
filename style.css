@@ -1,0 +1,35 @@
+
+/*CLIENTS*/
+.clients {
+  padding: 60px 0 90px;
+  text-align: center;
+  background-color: #3399ff;
+}
+
+.clients h2,
+.clients p {
+  color: #fff;
+}
+
+.clients p {
+  padding-bottom: 65px;
+}
+
+
+.packages li {
+  display: block;
+  padding: 5px;
+}
+
+@media(max-width:768px) {
+
+  .clients {
+    padding: 30px;
+  }
+
+  .packages {
+    width: 80%;
+    margin-left: 25px;
+  }
+}
+/*END OF CLIENTS*/
